@@ -1,15 +1,8 @@
-﻿using Microsoft.Azure.Devices;
-using Microsoft.Owin.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Sec_DiscoServer
+﻿namespace Sec_DiscoServer
 {
+    using Microsoft.Owin.Hosting;
+    using System;
+
     class Program
     {
         static void Main(string[] args)
