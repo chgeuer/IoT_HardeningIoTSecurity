@@ -7,6 +7,8 @@
     {
         static void Main(string[] args)
         {
+            Console.Title = "AuthN Server";
+
             //**************************************************
             //* Please modify/change IoT Hub - Device Settings 
             //* in Sec_DiscoServer/Controller/TokenController.cs
@@ -17,9 +19,9 @@
 
             using (WebApp.Start<Startup>(baseAddress))
             {
+                Console.Write("Press <return> to close");
                 Console.ReadLine();
             }
-
         }
     }
 }
